@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "FT-Transformer for Tabular Regression: A PyTorch Implementation and Benchmark on California Housing"
+version: 1.0.0
+date-released: 2026-08-11
+authors:
+  - family-names: Singh
+    given-names: Ayush Kumar
+    email: ab49ayush@gmail.com
+  - family-names: Srivastava
+    given-names: Garima
+    email: gsrivastava1@lko.amity.edu
+repository-code: "https://github.com/Ayush-2703/ft-transformer-california-housing"
+license: MIT
+keywords:
+  - deep-learning
+  - transformers
+  - tabular-data
+  - pytorch
+  - feature-tokenizer
+  - self-attention
+  - regression
+references:
+  - type: article
+    authors:
+      - family-names: Gorishniy
+        given-names: Yury
+      - family-names: Rubachev
+        given-names: Ivan
+      - family-names: Khrulkov
+        given-names: Valentin
+      - family-names: Babenko
+        given-names: Artem
+    title: "Revisiting Deep Learning Models for Tabular Data"
+    year: 2021
+    journal: "Advances in Neural Information Processing Systems"
+    volume: 34
+    start: 18598
+    end: 18608
+  - type: article
+    authors:
+      - family-names: Vaswani
+        given-names: Ashish
+      - family-names: et al.
+    title: "Attention Is All You Need"
+    year: 2017
+    url: "https://arxiv.org/abs/1706.03762"
