@@ -1,0 +1,33 @@
+# Best configuration found by the 50-trial Optuna TPE search (Cell 13-14).
+# Reference result over 3 seeds (0, 42, 123) on the real dataset:
+#   Test RMSE = 0.4869 +/- 0.0202, Test R^2 = 0.8188 +/- 0.0152.
+# Single best seed (42): Test RMSE = 0.4687, Test R^2 = 0.8324.
+name: optuna_best
+
+model:
+  n_features: 8
+  d_token: 64
+  n_blocks: 2
+  n_heads: 1
+  dropout: 0.03583408406582481
+  ffn_factor: 1.333
+
+train:
+  lr: 0.00675015816134869
+  # The notebook's raw print output for this run was truncated mid-value; the
+  # figure used here matches Table 5.5 of the accompanying research report
+  # ("Weight Decay: 0.0001"). Re-run `scripts/run_hpo.py` to regenerate an
+  # exact, unrounded value from a fresh Optuna study if you need bit-for-bit
+  # precision.
+  weight_decay: 0.0001
+  max_epochs: 150
+  patience: 15
+  seed: 42
+  batch_size_train: 256
+  batch_size_eval: 512
+  grad_clip_norm: 1.0
+
+data:
+  test_size: 0.2
+  inner_val_size: 0.1
+  random_state: 42

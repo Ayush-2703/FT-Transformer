@@ -1,0 +1,28 @@
+# Default FT-Transformer configuration.
+# Matches Cell 10 of the original research notebook exactly.
+# Reference result on the real California Housing dataset (seed=42):
+#   Test RMSE = 0.5043, Test R^2 = 0.8060, 57,131 trainable parameters.
+name: default
+
+model:
+  n_features: 8
+  d_token: 64
+  n_blocks: 2
+  n_heads: 4
+  dropout: 0.1
+  ffn_factor: 1.333
+
+train:
+  lr: 0.001
+  weight_decay: 0.0001
+  max_epochs: 150
+  patience: 15
+  seed: 42
+  batch_size_train: 256
+  batch_size_eval: 512
+  grad_clip_norm: 1.0
+
+data:
+  test_size: 0.2
+  inner_val_size: 0.1
+  random_state: 42
