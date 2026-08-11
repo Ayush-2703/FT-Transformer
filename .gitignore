@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# scikit-learn dataset cache
+scikit_learn_data/
+
+# Model checkpoints and generated results (regenerate via scripts/, don't commit binaries)
+model_checkpoints/*.pt
+results/figures/*.png
+results/tables/*.json
+!model_checkpoints/.gitkeep
+!results/figures/.gitkeep
+!results/tables/.gitkeep
+# Reference figures from the original Colab T4 run ARE committed (see README).
+!results/figures/reference_run/
+!results/figures/reference_run/*.png
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
