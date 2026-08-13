@@ -1,6 +1,6 @@
 <div align="center">
 
-![FT-Transformer](https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,100:F97316&height=250&section=header&text=FT-Transformer&fontSize=60&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Feature%20Tokenizer%20%2B%20Transformer%20for%20Advance%20Tabular%20Regression&descSize=22&descAlignY=58)
+![FT-Transformer](https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:1E3A8A,100:5B21B6&height=250&section=header&text=FT-Transformer&fontSize=60&fontColor=ffffff&fontAlignY=36&animation=fadeIn&desc=Feature%20Tokenizer%20%2B%20Transformer%20for%20Advance%20Tabular%20Regression&descSize=22&descAlignY=58)
 
 <p>
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -366,6 +366,6 @@ Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for the full tex
 **If this repository helped you, please consider giving it a ⭐**
 *It takes 2 seconds and helps others discover it.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,100:F97316&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:1E3A8A,100:5B21B6&height=100&section=footer" width="100%"/>
 
 </div>
